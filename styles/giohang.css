@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+
+}
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+}
+table, tbody, thead {
+    display:block;
+    background-color: #fff;
+}
+th {
+    height: 50px;
+}
+table {
+    margin: 20px 0;
+}
+table, td, th {
+    border-collapse: collapse;
+    text-align: center;
+}
+img, p.paragraph-product {
+    width: 240px;
+}
+p.paragraph-product {
+    padding: 100px 0;
+}
+th.sanpham-head{
+    width:500px;
+}
+.sanpham {
+    border: 1px solid #f1e9e9;
+}
+.sanpham-box{
+    width: 500px;
+    height: 300px;
+}
+.thead__tr--border {
+    border: 1px solid #f1e9e9;
+}
+.w-together{
+    width: 167px;
+}
+.w-together__thead{
+    width: 667px;
+}
+.tbody__tr--padding {
+    height:10px;
+}
+.ml-43 {
+    margin-left: 43px;
+}
+.price-item {
+    border: none;
+}
+/* part-count */
+.form-group {}
+.form-control {
+    min-width: 32px;
+    height: 32px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.form-count {
+    width: 50px;
+    /* background-color: #fff; */
+    cursor: text;
+}
+.form-cost-item {
+    border: none;
+    background-color: #f4f4f4;
+}
+
+.content-final {
+    height:100px;
+
+}
+.total {
+    float:right;
+    margin: 20px;
+}
+.payment {
+    float: right;
+}
+.payment > button {
+    background-color: bisque;
+    display:block;
+    padding: 20px;
+}
+#form-cost {
+    border: none;
+}

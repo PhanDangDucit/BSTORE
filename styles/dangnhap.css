@@ -1,0 +1,75 @@
+.search-bar .btn-search {
+    padding:13px;
+    margin:8px 0 0 0;
+}
+.content-register {
+    width:1170px;
+    margin: auto;
+    /* padding:300px 0; */
+    margin-bottom: 100px;
+    min-height: 500px;
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+}
+.form-group {
+    position: absolute;
+    width:50%;
+    top: 20%;
+    left: 50%;
+    opacity: 0;
+    background-color: rgb(144 178 225);
+    padding: 50px;
+    border-radius: 10px;
+    animation: moveBottom 1s linear 2s forwards;
+}
+
+@keyframes moveBottom {
+    from {
+        opacity: 0;
+        transform: translateX(-467px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(-50%);
+    }
+}
+.name-form {
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+.form-control {
+    width:50%;
+    margin:10px auto;
+    display: block;
+    height: 40px;
+    padding: 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.form-control:focus {
+    outline: none;
+    border: 1px solid #e361d6;
+}
+.form-control.btn-login {
+    height: 32px;
+    cursor: pointer;
+}
+.form-subcontrol {
+    width:50%;
+    border: 1px solid #ccc;
+    color:rgb(13, 16, 15);
+    background-color: rgb(223, 236, 232);
+    height: 32px;
+    border-radius: 20px;
+    left: 20%;
+    margin:2px auto;
+}
+.form-subcontrol__active {
+    display: block;
+    text-decoration: none;
+    /* width:30%; */
+    height: 50px;
+    line-height: 32px;
+    text-align: center;
+}
